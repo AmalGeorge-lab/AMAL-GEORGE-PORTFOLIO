@@ -1,0 +1,109 @@
+header{
+  height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  background-color: black;
+}
+
+header .left-section{
+  height: 100%;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+header h3{
+  font-family: "Caprasimo";
+  font-weight: 300;
+  background: linear-gradient(to right, #ca0ba4, #950548);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+header p{
+  font-size: 13px;
+  color: gray;
+}
+
+header .left-section > div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+header img{
+  height: 90%;
+}
+
+header nav{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a{
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+}
+
+header nav .selected{
+  border-radius: 5px;
+  border-bottom: 2px solid rgb(7, 103, 193);
+  color:rgb(7, 103, 193) ;
+}
+
+header .download{
+  display: flex;
+  text-decoration: none;
+  font-family: "Rowdies";
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  column-gap: 5px;
+  margin-right: 20px;
+  padding: 8px 15px;
+  background:
+    linear-gradient(black, black) padding-box,
+    linear-gradient(to right, rgb(0, 149, 255), purple) border-box;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+
+@media(max-width : 1200px){
+  header nav{
+    display: none;
+  }
+}
+
+@media(max-width : 600px){
+  body{
+    padding-top: 75px;
+  }
+  header{
+    height: 70px;
+  }
+  header h3{
+    font-size: 13px;
+  }
+  header p{
+    font-size: 7px;
+  }
+  header .download{
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+}

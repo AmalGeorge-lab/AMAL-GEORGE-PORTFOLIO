@@ -1,0 +1,106 @@
+#contact{
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(0, 166, 255, 0.067);
+  border: 2px solid rgb(4,26,38);
+  border-radius: 10px;
+}
+
+#contact h4{
+  font-family: "Rowdies";
+  color: rgb(177, 3, 177);
+  font-weight: 200px;
+  text-align: center;
+}
+
+#contact form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+#contact form .success{
+  color: rgb(4, 220, 4);
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid rgb(4, 220, 4);
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.167);
+}
+
+#contact form .error{
+  color: rgb(248, 71, 71);
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid rgb(220, 4, 4);
+  border-radius: 5px;
+  background-color: rgba(128, 0, 0, 0.167);
+}
+
+#contact form .loading{
+  color: rgb(42, 222, 235);
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid rgb(4, 220, 220);
+  border-radius: 5px;
+  background-color: rgba(0, 128, 128, 0.167);
+}
+
+#contact form div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#contact form div span{
+  color: rgb(247, 80, 80);
+  font-size: 13px;
+}
+
+#contact form div input{
+  flex: 1;
+  resize: none;
+  padding: 10px 10px 10px 35px;
+  background-color: transparent;
+  font-size: 15px;
+  border: 2px solid rgb(6, 47, 70);
+  border-radius: 5px;
+  outline: none;
+  color: white;
+}
+
+#contact form div textarea{
+  flex: 1;
+  resize: none;
+  background-color: transparent;
+  font-size: 15px;
+  border: 2px solid rgb(6, 47, 70);
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  padding: 10px;
+}
+
+#contact form div .icon{
+  position: absolute;
+  left: 10px;
+  top: 13px;
+}
+
+#contact form button{
+  align-self: flex-start;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  background: linear-gradient(to right , rgb(3, 146, 212) , blue);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  color: white;
+}

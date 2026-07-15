@@ -1,0 +1,75 @@
+#projects{
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: rgba(0, 166, 255, 0.067);
+  border: 2px solid rgb(4,26,38);
+  border-radius: 10px;
+}
+
+#projects h4{
+  font-family: "Rowdies";
+  color: rgb(177, 3, 177);
+  font-weight: 200px;
+  text-align: center;
+}
+
+#projects section{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects section > div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 400px;
+  column-gap: 15px;
+  padding: 20px;
+  background-color: rgba(0, 166, 255, 0.067);
+  border: 2px solid rgb(4,26,38);
+  border-radius: 5px;
+}
+
+#projects section > div h3{
+  color: white;
+  font-family: "Rowdies";
+}
+
+#projects section > div p{
+  color: gray;
+  font-size: 13px;
+}
+
+#projects section > div > div{
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 0;
+}
+
+#projects section > div > div .live-demo,
+#projects section > div > div .git-hub{
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#projects section > div > div .live-demo{
+  border-color: rgb(3, 95, 156);
+  color:rgb(3, 95, 156) ;
+}
+
+#projects section > div > div .git-hub{
+  border-color: white;
+  color: white;
+}

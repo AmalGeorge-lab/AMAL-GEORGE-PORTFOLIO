@@ -1,0 +1,49 @@
+#about{
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: rgba(0, 166, 255, 0.067);
+  border: 2px solid rgb(4,26,38);
+  border-radius: 10px;
+}
+
+
+#about h4{
+  font-family: "Rowdies";
+  color: rgb(177, 3, 177);
+  font-weight: 200px;
+  text-align: center;
+}
+
+#about h2{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+#about h2 span{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: rgb(4, 156, 216);
+}
+
+#about p{
+  font-size: 13px;
+  color: gray;
+  text-align: center;
+}
+
+@media(max-width : 600px){
+  #about h4{
+    font-size: 13px;
+  }
+  #about h2{
+    font-size: 15px;
+  }
+  #about p{
+    font-size: 10px;
+  }
+}

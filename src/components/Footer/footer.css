@@ -1,0 +1,28 @@
+.footer{
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 166, 255, 0.067);
+  border: 2px solid rgb(4,26,38);
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.footer > div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.footer > div h3{
+  color: white;
+  font-family: "Rowdies";
+}
+
+.footer > div > div{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
