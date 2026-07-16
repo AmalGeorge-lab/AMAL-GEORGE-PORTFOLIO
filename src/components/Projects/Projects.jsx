@@ -34,7 +34,7 @@ const Projects = () => {
           </div>
           <div>
             <a target="blank" href="https://cryptchat-blond.vercel.app" className="live-demo">Live Demo<ExternalLink size={15}/></a>
-            <a target="blank" href="https://github.com/AmalGeorge-lab" className="git-hub">Github<SiGithub/></a>
+            <a target="blank" href="https://github.com/AmalGeorge-lab/CRYPT-CHAT" className="git-hub">Github<SiGithub/></a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
           <div>
             <a target="blank" href="https://threatlens-swart.vercel.app" className="live-demo">Live Demo<ExternalLink size={15}/></a>
-            <a target="blank" href="https://github.com/AmalGeorge-lab" className="git-hub">Github<SiGithub/></a>
+            <a target="blank" href="https://github.com/AmalGeorge-lab/THREATLENS" className="git-hub">Github<SiGithub/></a>
           </div>
         </div>
 
