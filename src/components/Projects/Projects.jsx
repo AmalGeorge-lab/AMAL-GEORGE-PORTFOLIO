@@ -6,7 +6,8 @@ import {
   SiMongodb,
   SiSocket ,
   SiGithub ,
-  SiPython
+  SiPython ,
+  SiSolidity
 } from "react-icons/si";
 import { ExternalLink } from "lucide-react";
 
@@ -41,7 +42,7 @@ const Projects = () => {
         <div>
           <h3>THREATLENS</h3>
           <h5 style={{ color : "white" }}>SOC Analyst Platform</h5>
-          <p>Secure real-time end-to-end encrypted chat application featuring JWT authentication, private messaging, and emoji support.</p>
+          <p>A SOC Analyst project that monitors security events, detects threats, analyzes network activity, and provides actionable insights for identifying and responding to cyberattacks.</p>
           <div>
             <SiReact size={35} color="#61DAFB" />
             <SiNodedotjs size={35} color="#5FA04E"/>
@@ -52,6 +53,23 @@ const Projects = () => {
           <div>
             <a target="blank" href="https://threatlens-swart.vercel.app" className="live-demo">Live Demo<ExternalLink size={15}/></a>
             <a target="blank" href="https://github.com/AmalGeorge-lab/THREATLENS" className="git-hub">Github<SiGithub/></a>
+          </div>
+        </div>
+
+        <div>
+          <h3>FUNDCHAIN</h3>
+          <h5 style={{ color : "white" }}>Crowd Funding Platform</h5>
+          <p>FundChain is a Web3 crowdfunding platform that secures contributor funds in smart contracts and releases them to vendors only through democratic, majority-vote approval on spending requests.</p>
+          <div>
+            <SiReact size={35} color="#61DAFB" />
+            <SiNodedotjs size={35} color="#5FA04E"/>
+            <SiExpress size={35} color="#FFFFFF"/>
+            <SiMongodb size={35} color="#47A248"/>
+            <SiSolidity size={35} color="#363636" />
+          </div>
+          <div>
+            <a target="blank" href="https://fundchain-three.vercel.app" className="live-demo">Live Demo<ExternalLink size={15}/></a>
+            <a target="blank" href="https://github.com/AmalGeorge-lab/FUNDCHAIN" className="git-hub">Github<SiGithub/></a>
           </div>
         </div>
 
