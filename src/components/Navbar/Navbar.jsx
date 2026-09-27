@@ -55,7 +55,7 @@ const Navbar = () => {
           )
         })}
       </nav>
-      <a href="/files/resume.pdf" download="Amal_Resume.pdf" className="download"><Download size={15} color="rgb(0, 149, 255)"/>DOWNLOAD CV</a>
+      <a href="/files/AMAL_GEORGE.pdf" download="AMAL_GEORGE.pdf" className="download"><Download size={15} color="rgb(0, 149, 255)"/>DOWNLOAD CV</a>
     </header>
   )
 }
